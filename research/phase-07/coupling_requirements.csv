@@ -1,0 +1,7 @@
+alpha_AuAu,g_e_dimensionless,five_force_at_1mm_N,fifth_force_at_1mm_as_fraction_gravity,interpretation
+1,6.744466382789284e-19,4.94633611765852e-17,0.7411018560236311,NOT experimentally allowed/excluded value
+0.1,2.132787537205119e-19,4.9463361176585206e-18,0.07411018560236311,NOT experimentally allowed/excluded value
+0.01,6.744466382789284e-20,4.94633611765852e-19,0.0074110185602363115,NOT experimentally allowed/excluded value
+0.001,2.1327875372051188e-20,4.9463361176585203e-20,0.0007411018560236311,NOT experimentally allowed/excluded value
+0.0001,6.744466382789284e-21,4.9463361176585205e-21,7.411018560236312e-05,NOT experimentally allowed/excluded value
+1e-06,6.744466382789284e-22,4.94633611765852e-23,7.411018560236311e-07,NOT experimentally allowed/excluded value
