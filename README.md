@@ -18,7 +18,7 @@ ANDROMEDA-5 investigates whether a hypothetical scalar-field model with higher-s
 
 ## Reproducibility
 
-Python 3.11+, NumPy, SciPy and Matplotlib are used for various phases. Each research-phase directory holds local instructions, code, data, reports, and limitations where available.
+Python 3.11+, NumPy, SciPy and Matplotlib are used for various phases. Reports and selected datasets are committed across Phases 3–9. Reproduction code is currently available for Phases 3 and 9; some intermediate source scripts and binary PDF/plot artifacts are supplied separately in the research handoff and are not yet mirrored here.
 
 ```bash
 python -m venv .venv
@@ -26,7 +26,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 # Phase 9
 cd research/phase-09
-python transcribe_lee_appendix.py
 python phase9_public_data_screen.py
 python phase9_integrated_evidence.py
 python -m unittest -v test_phase9.py test_phase9_integrated.py
