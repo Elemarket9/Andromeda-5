@@ -1,0 +1,6 @@
+wavelength_m,k_inv_m,group_velocity_over_c,ell_k,validity_note
+0.01,628.31853,0.5475982,0.1256637,Toy dispersion only; not observational prediction
+0.001,6283.1853,2.576639,1.256637,Toy dispersion only; not observational prediction
+0.0001,62831.853,25.13285,12.56637,Toy dispersion only; not observational prediction
+1e-05,628318.53,251.3274,125.6637,Toy dispersion only; not observational prediction
+1e-06,6283185.3,2513.274,1256.637,Toy dispersion only; not observational prediction
