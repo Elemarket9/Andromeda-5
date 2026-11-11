@@ -1,0 +1,9 @@
+gap_mm,each_gold_slab_thickness_mm,two_pole_pressure_alpha1_Pa,long_pole_yukawa_pressure_alpha1_Pa,cancellation_fraction,ratio_two_pole_to_long_yukawa,note
+0.052,0.1,6.355691888471318e-10,1.3413504581073457e-09,0.526172161044382,0.473827838955618,ANALYTIC infinite-slab comparison only: not published torsion apparatus
+0.075,0.1,6.897359005825614e-10,1.3102019714418262e-09,0.4735652093214805,0.5264347906785195,ANALYTIC infinite-slab comparison only: not published torsion apparatus
+0.1,0.1,7.388957860619947e-10,1.277164768518511e-09,0.4214561783448654,0.5785438216551346,ANALYTIC infinite-slab comparison only: not published torsion apparatus
+0.2,0.1,8.569299850305145e-10,1.153138983397084e-09,0.2568718971705857,0.7431281028294143,ANALYTIC infinite-slab comparison only: not published torsion apparatus
+0.5,0.1,8.336664837672002e-10,8.487618055765835e-10,0.017785109685901412,0.9822148903140986,ANALYTIC infinite-slab comparison only: not published torsion apparatus
+1.0,0.1,5.476775560681195e-10,5.092833181675696e-10,-0.07538876010841,1.07538876010841,ANALYTIC infinite-slab comparison only: not published torsion apparatus
+2.0,0.1,2.0000325733497774e-10,1.8336088507154664e-10,-0.09076293592789608,1.090762935927896,ANALYTIC infinite-slab comparison only: not published torsion apparatus
+3.0,0.1,7.202969843117233e-11,6.601671991769136e-11,-0.0910826608922386,1.0910826608922386,ANALYTIC infinite-slab comparison only: not published torsion apparatus
