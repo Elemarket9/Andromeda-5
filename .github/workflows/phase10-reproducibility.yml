@@ -1,0 +1,24 @@
+name: ANDROMEDA-5 numerical reproducibility
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  phase10:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install numerical dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "numpy>=1.26" "scipy>=1.11"
+      - name: Run self-contained research tests
+        run: |
+          python research/phase-10/phase10_minimal_repro.py
+          python -m unittest discover -s research/phase-10 -p 'test_phase10_minimal.py' -v
