@@ -1,0 +1,30 @@
+{
+  "status": "toy numerical verification only; NO physical faster-than-light finding",
+  "hypothesis_inputs": {
+    "ell_m": 0.0002,
+    "mu_inverse_m": 1000,
+    "not_fit_to_data": true
+  },
+  "pole_ranges_mm": {
+    "long": 0.9789063129307032,
+    "short": 0.20430964368921992
+  },
+  "finite_difference": {
+    "comparisons": 1000,
+    "max_relative_discrepancy": 4.9545402908303954e-9
+  },
+  "synthetic_joint_fit": {
+    "number_of_design_rows": 16,
+    "noise": "assumed independent Gaussian",
+    "sigma_alpha": 0.2914216258057527,
+    "condition_number": 106.07319819984676,
+    "monte_carlo_trials_per_strength": 2000,
+    "detection_rates": {
+      "0": 0.0565,
+      "1": 0.927,
+      "0.5": 0.384
+    }
+  },
+  "real_lab_exclusion_computed": false,
+  "endorsement_obtained": false
+}
