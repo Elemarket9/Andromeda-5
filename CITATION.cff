@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "Cite the specific phase report and the underlying experimental literature when using this research."
+title: "ANDROMEDA-5: Exploratory Fundamental Physics Research"
+type: software
+version: "0.9.0-research"
+date-released: 2026-11-11
