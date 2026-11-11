@@ -1,0 +1,10 @@
+claim_id,claim,evidence_kind,source_or_method,can_be_claimed_as_discovery
+E01,"Lee et al. measured no significant inverse-square-law deviation at 52 um to 3 mm",published experiment,"Lee et al, PRL 124 101101 (2020); doi:10.1103/PhysRevLett.124.101101",No new particle or FTL
+E02,"Gravitational-strength single-Yukawa excluded for range >38.6 um at 95%",published model-specific constraint,"Lee et al, PRL 124 101101 (2020)",No; not direct bound on two-pole model
+E03,"Newtonian fit chi-squared 275 for 285 dof",published measurement summary,"Lee et al, arXiv:2002.11761",No
+E04,"p=0.653890 for published Newtonian chi-squared",independent calculation,"scipy.stats.chi2.sf(275,285)",No
+E05,"Two-pole static field ranges 0.979 mm and 0.204 mm",derived hypothetical model,"phase6_matter_field.py reused in phase7_empirical_screen.py",No
+E06,"Finite 1 mg gold sphere force alpha=1 at 1mm 4.946e-17 N",calculated hypothetical model,"phase7_empirical_screen.py",No
+E07,"Finite sphere and parallel slab approximations tested via independent integrals",numerical verification,"test_phase7.py",No
+E08,"MORRIS magnetically levitated force experiment is a proposal with future sensitivities",published proposed experiment,"Amaral et al, Phys Rev D 113 L021101 (2026)",Not an observed bound
+E09,"Phase 7 did not test usable superluminal transmission in physical hardware",research scope declaration,"ANDROMEDA5 Phase 7",No
