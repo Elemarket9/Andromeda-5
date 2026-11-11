@@ -15,6 +15,7 @@ ANDROMEDA-5 investigates whether a hypothetical scalar-field model with higher-s
 | 6 | Matter–field interaction | Candidate coupling and force calculations |
 | 7–8 | Constraints and paired observables | Theoretical predictions, not observations |
 | 9 | Published torque-data evidence screen | Secondary analysis of selected torsion-balance results; **no valid two-pole exclusion bound yet** |
+| 10 | Toy torque forward model, synthetic injection/recovery and external review request | Numerical checks passed; actual experimental response model and independent expert opinion pending |
 
 ## Reproducibility
 
@@ -45,6 +46,10 @@ python -m unittest -v test_phase9.py test_phase9_integrated.py
 
 - John G. Lee et al., *New Test of the Gravitational 1/r² Law at Separations down to 52 μm*, Physical Review Letters **124**, 101101 (2020): https://doi.org/10.1103/PhysRevLett.124.101101
 - John G. Lee, *A Fourier-Bessel Test of the Gravitational Inverse-Square Law*, University of Washington dissertation (2020): https://digital.lib.washington.edu/researchworks/bitstreams/6013936a-da00-42b7-ba0a-4dff0cb05bf8/download
+
+## Phase 10 reviewer handoff
+
+See [the Phase 10 technical report](research/phase-10/PHASE10_RESEARCH_REPORT.md), [one-page expert brief](research/phase-10/REVIEWER_ONE_PAGE_SUMMARY.md) and [minimal numerical reproduction](research/phase-10/phase10_minimal_repro.py). A draft request for critical review has been prepared, but no professor endorsement or scientific review has occurred.
 
 ## Feedback
 
