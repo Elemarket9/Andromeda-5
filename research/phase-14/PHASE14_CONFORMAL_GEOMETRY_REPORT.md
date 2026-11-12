@@ -1,3 +1,5 @@
+> **Critical adversarial update (12 November 2026):** A subsequent independent, double-precision JAX computation of the full Einstein tensor found an explicit future-directed null vector with (G_{\mu\nu}k^\mu k^\nu=-8.94286966642\times10^{-6}\,\mathrm{m}^{-2}) at the bubble wall. **The candidate violates NEC and thus also fails WEC for some boosted observers, despite its positive Eulerian energy.** It is **not** a positive-energy FTL breakthrough. See [PHASE14_ADVERSARIAL_NEC_FAILURE.md](PHASE14_ADVERSARIAL_NEC_FAILURE.md). The original report below is preserved as the historical progression of the hypothesis and its initial, insufficient tests.
+
 # ANDROMEDA-5 — Phase 14: conformal positive-mass geometry, Eulerian constraint and coordinate light-time test
 
 **Date:** 12 November 2026  
