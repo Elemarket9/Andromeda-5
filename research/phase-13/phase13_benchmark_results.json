@@ -1,0 +1,37 @@
+{
+  "status": "Mathematical benchmark of pre-existing ADM-shift metric; not a physical warp device or FTL experiment",
+  "parameters": {
+    "radius_m": 100,
+    "wall_width_m": 10,
+    "v_over_c": 0.1,
+    "route_m": 210
+  },
+  "cubic_C1": {
+    "radial_integral_m": 1200.4285714285713,
+    "integrated_eulerian_energy_J": -1.2106877984683271e+44,
+    "time_advance_ns": 60.722321449234805,
+    "endpoint_effective_speed_over_c": 1.0949138820668651
+  },
+  "quintic_C2": {
+    "radial_integral_m": 1428.896103896104,
+    "integrated_eulerian_energy_J": -1.4411078838345363e+44,
+    "time_advance_ns": 60.710565292176476,
+    "endpoint_effective_speed_over_c": 1.0948937624951627
+  },
+  "radial_wall_variational_bound": {
+    "minimum_radial_integral_m": 997.5,
+    "minimum_abs_integrated_eulerian_energy_J": 1.006024937856134e+44,
+    "model_scope": "fixed flat spatial slices, x-directed shift vf(r), radial wall transition with specified support and speed"
+  },
+  "checks": {
+    "symbolic_profiles_independent_quadrature": "matched",
+    "simulation": "idealized mathematical metric; not an experimentally constructed geometry",
+    "exact_repository_script_clean_checkout_run": "not verified"
+  },
+  "provenance": {
+    "literature": "Alcubierre 1994, Olum 1998, Fuchs et al. 2024, Le 2026 WarpAX",
+    "source_script": "research/phase-13/phase13_shift_metric_benchmark.py"
+  },
+  "new_physical_discovery": false,
+  "operational_FTL": false
+}
