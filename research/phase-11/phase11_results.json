@@ -1,0 +1,69 @@
+{
+  "model": "ANDROMEDA-5 hypothetical two-pole force, NOT observed",
+  "pole_s": 0.916515138991168,
+  "pole_a_inv_m": 1021.5482184460997,
+  "pole_b_inv_m": 4894.531564653516,
+  "point_force_alpha1_at_52um": 0.02839259283242848,
+  "point_force_alpha1_at_1mm": 0.7459751672200003,
+  "point_force_max_fraction_and_distance_mm": [
+    0.7688725894578924,
+    0.8090916334319055
+  ],
+  "group_velocity_crosses_c_k_inv_m": 1642.8697669240887,
+  "group_velocity_c_at_k5000": 2.100420126042015,
+  "group_velocity_is_not_a_measured_signal_speed": true,
+  "conditional_published_fit_recast": {
+    "lambda_long_mm": 0.9789063129307032,
+    "lambda_short_mm": 0.20430964368921992,
+    "published_interpolated_long_hat_sigma": [
+      -0.005772457140361797,
+      0.008053962787854141
+    ],
+    "published_interpolated_short_hat_sigma": [
+      -0.0025999593339747547,
+      0.015484517815539004
+    ],
+    "nuisance_projected_template_norms": [
+      124.16248079865231,
+      64.58063543938586
+    ],
+    "D": -78.14651349016431,
+    "Q_min": 3549.996296415541,
+    "Q_max": 35623.96392724559,
+    "conditional_95_like_positive_alpha_upper_envelope": 0.01809069322167279,
+    "conditional_sigma_alpha_upper_envelope": 0.015382456408739397,
+    "delta_chisq_alpha_1_vs_null_lower_envelope": 4396.715740192581,
+    "NOTE": "NOT a real two-Yukawa 95% exclusion: covariance and nuisance model assumed common and linear."
+  },
+  "adversarial_toy_stress": {
+    "toy_only": true,
+    "reported_sigma_alpha": 0.2914216258057533,
+    "correct_model_condition_number": 106.07319819984666,
+    "calibration_shift_um": {
+      "0": {
+        "fitted_alpha_with_zero_real_signal": 3.9968028886505635e-15,
+        "reported_zscore": 1.3714846582163491e-14,
+        "false_positive_probability": 0.04999579029644097
+      },
+      "2": {
+        "fitted_alpha_with_zero_real_signal": 1.0103741980038305,
+        "reported_zscore": 3.4670529176077483,
+        "false_positive_probability": 0.9341014817815713
+      },
+      "5": {
+        "fitted_alpha_with_zero_real_signal": 2.1648006889452907,
+        "reported_zscore": 7.428414699697804,
+        "false_positive_probability": 0.9999999772960751
+      }
+    },
+    "correlated_noise_length_um": 40.0,
+    "correlated_noise_actual_sigma_alpha": 0.345926819250004,
+    "correlated_noise_false_positive_probability": 0.09870245051695097,
+    "projected_long_short_pair_response_norms": [
+      0.19330887279556833,
+      3.6246518588563266,
+      3.4314543309374996
+    ],
+    "max_abs_decomposition_error": 0.0
+  }
+}
